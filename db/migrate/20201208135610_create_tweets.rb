@@ -1,8 +1,8 @@
-class CreateTags < ActiveRecord::Migration[6.0]
+class CreateTweets < ActiveRecord::Migration[6.0]
   def change
-    create_table :tags do |t|
+    create_table :tweets do |t|
       t.string :message, null:false
- 
+
       t.timestamps
     end
   end
